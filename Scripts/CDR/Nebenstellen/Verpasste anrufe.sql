@@ -13,3 +13,9 @@ SELECT   calldate,
 ORDER BY calldate DESC
 FETCH FIRST 100 ROWS ONLY;
 /
+
+
+SELECT   parameter, value 
+    FROM nls_session_parameters 
+ORDER BY 1;
+/
