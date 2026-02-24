@@ -38,7 +38,7 @@ FETCH FIRST 100 ROWS ONLY;
 /
 
 
-SELECT  PARAMETER ,VALUE
- FROM nls_session_parameters 
+SELECT   parameter, value 
+    FROM nls_session_parameters 
 ORDER BY 1;
 /
